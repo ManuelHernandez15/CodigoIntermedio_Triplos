@@ -1,0 +1,83 @@
+body {
+    background-image: linear-gradient(180deg, #505467 0, #1f3259 50%, #00154b 100%);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-table {
+    height: 50vh;
+    width: 70vh;
+
+    margin-top: 2%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #23709459;
+
+    overflow-y: scroll;
+}
+
+.foto{
+    position: absolute;
+}
+
+h1 {
+    font-family: Arial;
+    color: aliceblue;
+}
+
+button {
+    background-color: #149e6b;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px
+}
+
+label {
+    font-family: Arial;
+    font-size: 14 px;
+    color: white;
+}
+
+input {
+    font-family: Arial;
+    font-size: 14px;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 14 px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    color: white;
+    background-color: #246355;
+}
+
+tr:nth-child(even) {
+    color: black;
+    background-color: lightgray;
+
+}
